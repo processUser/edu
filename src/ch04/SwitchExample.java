@@ -1,7 +1,7 @@
 package ch04;
 
 public class SwitchExample {
-    public static void main(String[] grgs) {
+    public static void main(String[] args) {
         int num = (int)(Math.random() * 6) + 1;
 
         switch(num){ // 정수, 문자열 만 가능
