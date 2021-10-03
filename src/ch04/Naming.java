@@ -4,6 +4,11 @@ public class Naming {
     public static void main(String[] args){
         // 예) bus, car, taxi
 
+        //상수 (모두 대문자)
+        /*
+        BUS_CAR_TAXI
+         */
+
         // 파스칼 케이스 기법 (모든 단어의 첫글자는 대문자, 나머지는 소문자)
         /*
         클레스명
