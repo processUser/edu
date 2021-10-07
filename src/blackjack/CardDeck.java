@@ -35,7 +35,7 @@ public class CardDeck {
                         denomination = "K";
                         break;
                     default:
-                        denomination = String.valueOf(z);
+                        denomination = String.valueOf(z); // 문자열로 변환
                 }
                 Card c = new Card(patters[i], denomination);
                 cards.add(c);

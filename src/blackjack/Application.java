@@ -6,3 +6,8 @@ public class Application {
         game.play();
     }
 }
+/*
+참고 사이트
+https://jojoldu.tistory.com/62
+
+ */

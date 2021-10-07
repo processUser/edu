@@ -6,6 +6,7 @@ public class Dealer extends Gamer{
         // 2장의 카드의 점수가 16점 이하인지 확인
         // 16점 이하면 한장 더 뽑기
 
+        //List<Card> localMyCards = openCards();
         if (myCards.size() == 2) {
             int sumPoint = 0;
             for (int i=0; i < 2; i++) {

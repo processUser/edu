@@ -1,5 +1,6 @@
 package blackjack;
 
+import java.util.LinkedList;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -13,7 +14,9 @@ public class CardTest {
         System.out.println(c1.getDenomination());
 
         //배열
-        //ArrayList
+        //LinkedList()
+//        List<Card> cards = new LinkedList();
+        //ArrayList()
 
         List<Card> cards = new ArrayList();
         cards.add(c1);

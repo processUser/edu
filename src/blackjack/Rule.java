@@ -3,6 +3,11 @@ package blackjack;
 import java.util.List;
 
 public class Rule {
+    /*
+    멤버필드 없다.
+    static 으로 만들기 가능.
+     */
+
     public int getScore(List<Card> cards) {
         int sumPoint = 0;
         for (int i=0; i < cards.size(); i++) {
